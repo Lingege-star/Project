@@ -1,0 +1,80 @@
+PS:
+	生成ssh密钥
+		ssh-keygen -t rsa -C "floveandroid@sina.com"
+
+	查看每次提交到本地仓库的版本号   （版本号是随机生成的一串字符串）
+		git reflog 
+
+	回退到上一个版本                          回退到上上个版本                                  回退到上上上个版本 
+	git reset --hard HEAD^               git reset --hard HEAD^^                     git reset --hard HEAD^^^    ........
+
+	回退到某个具体的版本号      
+	git reset --hard  968c48a                      git reset --hard  回退的具体版本号
+
+	配置用户名命令:
+		git config --global user.name "自己用户名"        
+
+	配置邮箱
+		git config --global user.email "自己邮箱"      
+
+	验证用户名和邮箱是否已经配置过
+
+		git config user.name
+		git config user.email
+
+	合并冲突
+		CONFLICT
+
+
+第一天到公司:
+1.git 初始化命令  只是第一次初始化下
+	git init
+2.克隆
+	git clone 仓库地址 例如：git@github.com:15372992326m/sk.git
+3.重新打开 查看状态
+4.切换分支
+	 git checkout -b dev
+5.修改文件
+6.状态 
+	git status
+7.添加 
+	git add .
+8.注释 
+	git commit -m "注释"  
+9.状态 
+	git status
+10.切主分支 
+	git checkout 分支名
+11.合并 
+	git merge dev
+12.关联仓库 
+	git remote add origin 仓库地址
+13.把本地仓库的项目提交到远程仓库
+	git push -u origin master（可变）	(用户名 密码)
+
+
+第二天	上班
+
+1.拉取  git pull origin master --allow-unrelated-histories
+1.git 初始化命令  只是第一次初始化下
+	git init
+3.重新打开 查看状态
+4.切换分支
+	 git checkout dev
+5.修改文件
+6.状态 
+	git status
+7.添加
+	 git add .
+8.注释 
+	git commit -m "注释"  
+9.状态 
+	git status
+10.切主分支 
+	git checkout 分支名
+11.合并 
+	git merge dev
+12.关联仓库 
+	git remote add origin 仓库地址
+13.把本地仓库的项目提交到远程仓库
+	git push -u origin master（可变）	(用户名 密码)

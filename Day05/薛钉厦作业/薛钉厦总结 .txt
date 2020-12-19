@@ -1,0 +1,149 @@
+1.方便项目经理查看项目进度    提交代码
+2.进公司之后，发现代码写不下去，需要撤销重新写     版本回退
+3. ABC模块  DEF模块, 项目分工开发，项目合并       分支与合并
+
+git 初始化命令  只是第一次初始化下
+git init
+
+将工作空间里面所有的文件和文件夹都提交到暂存区    
+git add 
+
+将暂存区里面的文件提交到本地仓库
+git commit -m "注释"
+
+查看状态的命令                                            
+git status
+
+查看每次提交到本地仓库的版本号   （版本号是随机生成的一串字符串）
+git reflog
+
+回退到上一个版本 
+git reset --hard HEAD^....  
+ 
+回退到某个具体的版本号      
+git reset --hard  版本号
+     
+设置关联远程仓库
+生成ssh密钥
+ssh-keygen -t rsa -C "1119633919@qq.com"
+
+git关联远程仓库命令
+git remote add origin 远程仓库位置
+
+git抽取远程仓库所有文件
+git clone  远程仓库位置
+
+把本地仓库的项目提交到远程仓库
+git push -u origin 分支名字
+
+查看但是分支数量
+ git branch
+
+创建+切换分支
+git checkout -b 新建分支名字
+
+切换分支
+git checkout 分支名
+
+查看分支 
+git branch
+
+创建分支
+git branch name
+
+删除分支
+git branch –d name
+
+如果上面拉取代码的方式不行，只需要创建一个空目录 然后通过   
+git clone https://github.com/Thierry1/Android-H2003B.git
+
+
+切换到主分支然后合并子分支
+合并某分支到当前分支
+git merge 子分支
+
+
+
+//注意：
+拿到仓库地址不管有没有代码，先克隆到本地仓库，切换子分支，在子分支写代码，修改bug 每次整好 每次提交到本地仓库一次 下班以后再合并分支 提交远程仓库 
+以后来公司，只用pull拉去代码，再切换子分支 实现功能 修复bug 实现功能，提交本地仓库 然后合并子分支 提交远程仓库 
+
+
+
+
+//屏幕适配标准
+ xxxhdpi             640              
+   xxhdpi @3x(3倍图)   480   3            1080*1920
+   xhdpi  @2x(2倍图)   320   2            720*1280   768*1280
+   hdpi                240   1.5          480*800    480*854
+   mdpi   @1x(1倍图)   160   1            320*480 
+   ldpi                120   0.75         240*320    240*400
+   
+  密度比   12 16 24 32 48 ----> 3:4:6:8:12 ----> 0.75 : 1 : 1.5 : 2 : 3
+
+版本迭代 不需要试配，找到在哪修改代码和bug就好
+从头开始写的：需要屏幕适配
+drawable里面放入一些app切图图标资源    mipmap里面放入app的logo图标
+图片适配：布局适配(px适配，dp适配(最小宽度限定适配符)
+屏幕适配：1080*1920  720*1280
+1.明确原型图的分辨率是多少
+  根据原型图做布局适配
+//缺点机型太多，每一种都要创建适配目录
+
+//dp总结
+原型图上三种单位 三种单位可以切换
+px(A)  dp(A)  pt(ios)
+原理：无论屏幕多大 密度比例多大 80%的手机的dp值都为360dp 所以这些手机我们以360dp为基准 
+
+//查看密度比源码：
+ public String getScreenParams() {
+        DisplayMetrics dm = new DisplayMetrics();
+//        dm = getResources().getDisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+        int heightPixels = dm.heightPixels;
+        int widthPixels = dm.widthPixels;
+        float xdpi = dm.xdpi;
+        float ydpi = dm.ydpi;
+        int densityDpi = dm.densityDpi;
+        float density = dm.density;
+        float scaledDensity = dm.scaledDensity;
+        float heightDP = heightPixels / density;
+        float widthDP = widthPixels / density;
+        String str = "heightPixels: " + heightPixels + "px";
+        str += "\nwidthPixels: " + widthPixels + "px";
+        str += "\nxdpi: " + xdpi + "dpi";
+        str += "\nydpi: " + ydpi + "dpi";
+        str += "\ndensityDpi: " + densityDpi + "dpi";
+        str += "\ndensity: " + density;
+        str += "\nscaledDensity: " + scaledDensity;
+        str += "\nheightDP: " + heightDP + "dp";
+        str += "\nwidthDP: " + widthDP + "dp";
+        return str;
+    }
+    private void data() {
+        Log.e("Build.BOARD", "" + Build.BOARD);
+        Log.e("Build.BOOTLOADER", "" + Build.BOOTLOADER);
+        Log.e("Build.BRAND", "" + Build.BRAND);
+        Log.e("Build.DEVICE", "" + Build.DEVICE);
+        Log.e("Build.DISPLAY", "" + Build.DISPLAY);
+        Log.e("Build.FINGERPRINT", "" + Build.FINGERPRINT);
+        Log.e("Build.HARDWARE", "" + Build.HARDWARE);
+        Log.e("Build.HOST", "" + Build.HOST);
+        Log.e("Build.ID", "" + Build.ID);
+        Log.e("Build.MANUFACTURER", "" + Build.MANUFACTURER);
+        Log.e("Build.MODEL", "" + Build.MODEL);
+        Log.e("Build.PRODUCT", "" + Build.PRODUCT);
+        Log.e("Build.SERIAL", "" + Build.SERIAL);
+        Log.e("Build.TAGS", "" + Build.TAGS);
+        Log.e("Build.TYPE", "" + Build.TYPE);
+        Log.e("Build.UNKNOWN", "" + Build.UNKNOWN);
+        Log.e("Build.USER", "" + Build.USER);
+        Log.e("Build.VERSION.SDK_INT", "" + Build.VERSION.SDK_INT);
+        Log.e("Build.VERSION.CODENAME", "" + Build.VERSION.CODENAME);
+        Log.e("Build.V.INCREMENTAL", "" + Build.VERSION.INCREMENTAL);
+        Log.e("Build.VERSION.RELEASE", "" + Build.VERSION.RELEASE);
+        Log.e("Build.VERSION_CODES.M", "" + Build.VERSION_CODES.M);
+    }
+
+
+  

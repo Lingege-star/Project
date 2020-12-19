@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="81dp"
+        android:layout_height="18dp"
+        android:id="@+id/tv_6"
+        android:text="诗歌群PK"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+    <TextView
+        android:layout_width="118dp"
+        android:layout_height="18dp"
+        android:id="@+id/tv_7"
+        android:text="08-01日晚8:00开始"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:id="@+id/image9"
+        app:layout_constraintTop_toBottomOf="@id/tv_7"
+        android:src="@drawable/i"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

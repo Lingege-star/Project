@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Day06</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connec_exception">网络链接异常</string>
+    <string name="ssl_exception">ssl证书异常</string>
+    <string name="json_parse_exception">json解析异常</string>
+    <string name="complete">网络请求完成了</string>
+    <string name="Homefrg_view">首页</string>
+    <string name="Showfrg_view">发现</string>
+    <string name="Shangfrg_view">商城</string>
+    <string name="Myfrg_view">我的</string>
+
+</resources>

@@ -1,0 +1,1 @@
+include ':app', ':jiguang-demo', ':jiguang', ':app(1)'

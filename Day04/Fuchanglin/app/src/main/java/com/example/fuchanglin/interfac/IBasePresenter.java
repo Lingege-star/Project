@@ -1,7 +1,0 @@
-package com.example.fuchanglin.interfac;
-
-public interface IBasePresenter<V extends IBaseView> {
-    void attachView(V view);
-
-    void unAttachView();
-}

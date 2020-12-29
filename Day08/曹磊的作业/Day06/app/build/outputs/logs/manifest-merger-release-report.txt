@@ -1,0 +1,227 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Day06\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml:2:1-22:12
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\063c8857034ab6663f9a057880eb08b3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\c83fbf27eb511b44c9ccc59c66e21b5d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\5ff3d0389c35f9ede087a50a916f7b69\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.dfqin:grantor:2.5] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\8d1db59b742ff6d8de8d3397eddca876\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\590e1ccc173bc56f486b281693655347\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\9221fdff2ede88ea30f2eb95bf90aa3a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\3e4fe5bd7abe6480c9305a09b897bdfa\AndroidManifest.xml:2:1-12:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-28] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\84a171366f10f5c3c8dbb9e7ba788ab3\AndroidManifest.xml:2:1-17:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\31daf195465c8e988a360fd17ee49917\AndroidManifest.xml:15:1-21:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\284d23af342ce4724b6fc6edcbf5e0b7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\14032698d56fce5a82f5a8c99b3d45e5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\9899398f142f8e379f9237e462f7dd27\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\f0889a80168552e6bd634547344b05a9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\263d3c20af3bb8d3c72b11998867488f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\089f84d7faab9e91c42634a8c7807d13\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\64ae5982db777def07467cc48484699f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\c7f4c3ff714d68e427bcb4265b8d4f24\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\e613b4e5aef118c6c36169fcbff9f208\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\92c706bf8ff37401ac62252c6337ac1e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\4d79af1de84f222be9e654784b0c7cd5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\d876307f887d0ae4196721385bfd2119\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\4d2ab847e287ddc142fb55dd1c342f76\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\e105622e273e48e1aaf1277103412cc5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\2997376c8cf389826c3052ec46916d97\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\5e57268453f228c538f8951fc18bcbbf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\00bedee7b2589fa16d63022474de1560\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\f647cd7211d09ef7db9d6dda5e0a2e05\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\154d1c2870ab87cbb6003e4218d1df02\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\82eed93d624d4d8009e05923f027d9dc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\bde11ac79ad3bd00394889f7fd9cd034\AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\505a3c6a80b241d6150b1a1ea973e340\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\986e5ae88757ad3f24238ecb84438582\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\cecebdd8240902fd26e30b92904362c8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\83073e38d116d2f185181db76a1ec814\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\14fc71465c39116ea6a420e677aebb49\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\1ae73455a26e7c83147a7fa75f340ae6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\3921292bfe83b5bf029a571a4cc01386\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\6819034d967fa5ba5114192cdd23535a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\cb4e585ac52ee95120f7f956eec13643\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\fed769bb35c93d2dd03d61fc5470f7e8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\64bc44249c39626103c1614b08dd1683\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\7044532380daaf96502146a5d50e9e24\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\36ab58c1ddfe3d559efbb9fa8760a42b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\6fea359b3959a5b0c7fbf83f70356db3\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\Day06\app\src\main\AndroidManifest.xml:4:1-62
+	android:name
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:4:18-60
+application
+ADDED from F:\Day06\app\src\main\AndroidManifest.xml:5:5-20:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\c83fbf27eb511b44c9ccc59c66e21b5d\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\c83fbf27eb511b44c9ccc59c66e21b5d\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\5ff3d0389c35f9ede087a50a916f7b69\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\5ff3d0389c35f9ede087a50a916f7b69\AndroidManifest.xml:22:5-20
+MERGED from [com.github.dfqin:grantor:2.5] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\8d1db59b742ff6d8de8d3397eddca876\AndroidManifest.xml:11:5-18:19
+MERGED from [com.github.dfqin:grantor:2.5] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\8d1db59b742ff6d8de8d3397eddca876\AndroidManifest.xml:11:5-18:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\3e4fe5bd7abe6480c9305a09b897bdfa\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\3e4fe5bd7abe6480c9305a09b897bdfa\AndroidManifest.xml:10:5-20
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-28] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\84a171366f10f5c3c8dbb9e7ba788ab3\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-28] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\84a171366f10f5c3c8dbb9e7ba788ab3\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\bde11ac79ad3bd00394889f7fd9cd034\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\bde11ac79ad3bd00394889f7fd9cd034\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\505a3c6a80b241d6150b1a1ea973e340\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\505a3c6a80b241d6150b1a1ea973e340\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\83073e38d116d2f185181db76a1ec814\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\83073e38d116d2f185181db76a1ec814\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\bde11ac79ad3bd00394889f7fd9cd034\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:6:9-37
+activity#com.example.day06.ui.MainActivity
+ADDED from F:\Day06\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:13:19-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Day06\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from F:\Day06\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Day06\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\063c8857034ab6663f9a057880eb08b3\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\063c8857034ab6663f9a057880eb08b3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\c83fbf27eb511b44c9ccc59c66e21b5d\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\c83fbf27eb511b44c9ccc59c66e21b5d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\5ff3d0389c35f9ede087a50a916f7b69\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\5ff3d0389c35f9ede087a50a916f7b69\AndroidManifest.xml:20:5-44
+MERGED from [com.github.dfqin:grantor:2.5] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\8d1db59b742ff6d8de8d3397eddca876\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dfqin:grantor:2.5] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\8d1db59b742ff6d8de8d3397eddca876\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\590e1ccc173bc56f486b281693655347\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\590e1ccc173bc56f486b281693655347\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\9221fdff2ede88ea30f2eb95bf90aa3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\9221fdff2ede88ea30f2eb95bf90aa3a\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\3e4fe5bd7abe6480c9305a09b897bdfa\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\3e4fe5bd7abe6480c9305a09b897bdfa\AndroidManifest.xml:6:5-8:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-28] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\84a171366f10f5c3c8dbb9e7ba788ab3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-28] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\84a171366f10f5c3c8dbb9e7ba788ab3\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\31daf195465c8e988a360fd17ee49917\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\31daf195465c8e988a360fd17ee49917\AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\284d23af342ce4724b6fc6edcbf5e0b7\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\284d23af342ce4724b6fc6edcbf5e0b7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\14032698d56fce5a82f5a8c99b3d45e5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\14032698d56fce5a82f5a8c99b3d45e5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\9899398f142f8e379f9237e462f7dd27\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\9899398f142f8e379f9237e462f7dd27\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\f0889a80168552e6bd634547344b05a9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\f0889a80168552e6bd634547344b05a9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\263d3c20af3bb8d3c72b11998867488f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\263d3c20af3bb8d3c72b11998867488f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\089f84d7faab9e91c42634a8c7807d13\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\089f84d7faab9e91c42634a8c7807d13\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\64ae5982db777def07467cc48484699f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\64ae5982db777def07467cc48484699f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\c7f4c3ff714d68e427bcb4265b8d4f24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\c7f4c3ff714d68e427bcb4265b8d4f24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\e613b4e5aef118c6c36169fcbff9f208\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\e613b4e5aef118c6c36169fcbff9f208\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\92c706bf8ff37401ac62252c6337ac1e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\92c706bf8ff37401ac62252c6337ac1e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\4d79af1de84f222be9e654784b0c7cd5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\4d79af1de84f222be9e654784b0c7cd5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\d876307f887d0ae4196721385bfd2119\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\d876307f887d0ae4196721385bfd2119\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\4d2ab847e287ddc142fb55dd1c342f76\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\4d2ab847e287ddc142fb55dd1c342f76\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\e105622e273e48e1aaf1277103412cc5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\e105622e273e48e1aaf1277103412cc5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\2997376c8cf389826c3052ec46916d97\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\2997376c8cf389826c3052ec46916d97\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\5e57268453f228c538f8951fc18bcbbf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\5e57268453f228c538f8951fc18bcbbf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\00bedee7b2589fa16d63022474de1560\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\00bedee7b2589fa16d63022474de1560\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\f647cd7211d09ef7db9d6dda5e0a2e05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\f647cd7211d09ef7db9d6dda5e0a2e05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\154d1c2870ab87cbb6003e4218d1df02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\154d1c2870ab87cbb6003e4218d1df02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\82eed93d624d4d8009e05923f027d9dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\82eed93d624d4d8009e05923f027d9dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\bde11ac79ad3bd00394889f7fd9cd034\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\bde11ac79ad3bd00394889f7fd9cd034\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\505a3c6a80b241d6150b1a1ea973e340\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\505a3c6a80b241d6150b1a1ea973e340\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\986e5ae88757ad3f24238ecb84438582\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\986e5ae88757ad3f24238ecb84438582\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\cecebdd8240902fd26e30b92904362c8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\cecebdd8240902fd26e30b92904362c8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\83073e38d116d2f185181db76a1ec814\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\83073e38d116d2f185181db76a1ec814\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\14fc71465c39116ea6a420e677aebb49\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\14fc71465c39116ea6a420e677aebb49\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\1ae73455a26e7c83147a7fa75f340ae6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\1ae73455a26e7c83147a7fa75f340ae6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\3921292bfe83b5bf029a571a4cc01386\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\3921292bfe83b5bf029a571a4cc01386\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\6819034d967fa5ba5114192cdd23535a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\6819034d967fa5ba5114192cdd23535a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\cb4e585ac52ee95120f7f956eec13643\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\cb4e585ac52ee95120f7f956eec13643\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\fed769bb35c93d2dd03d61fc5470f7e8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\fed769bb35c93d2dd03d61fc5470f7e8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\64bc44249c39626103c1614b08dd1683\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\64bc44249c39626103c1614b08dd1683\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\7044532380daaf96502146a5d50e9e24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\7044532380daaf96502146a5d50e9e24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\36ab58c1ddfe3d559efbb9fa8760a42b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\36ab58c1ddfe3d559efbb9fa8760a42b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\6fea359b3959a5b0c7fbf83f70356db3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\6fea359b3959a5b0c7fbf83f70356db3\AndroidManifest.xml:20:5-44
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+		ADDED from F:\Day06\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Day06\app\src\main\AndroidManifest.xml
+activity#com.github.dfqin.grantor.PermissionActivity
+ADDED from [com.github.dfqin:grantor:2.5] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\8d1db59b742ff6d8de8d3397eddca876\AndroidManifest.xml:15:9-17:55
+	android:theme
+		ADDED from [com.github.dfqin:grantor:2.5] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\8d1db59b742ff6d8de8d3397eddca876\AndroidManifest.xml:17:13-52
+	android:name
+		ADDED from [com.github.dfqin:grantor:2.5] C:\Users\CaoLei\.gradle\caches\transforms-2\files-2.1\8d1db59b742ff6d8de8d3397eddca876\AndroidManifest.xml:16:13-71

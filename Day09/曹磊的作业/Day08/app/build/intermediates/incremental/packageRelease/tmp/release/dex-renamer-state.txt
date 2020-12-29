@@ -1,0 +1,7 @@
+#Thu Dec 24 21:29:43 CST 2020
+base.0=F\:\\Day08\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=F\:\\Day08\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0

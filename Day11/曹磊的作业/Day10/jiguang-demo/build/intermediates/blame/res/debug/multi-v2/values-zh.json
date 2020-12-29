@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Day10\\jiguang-demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "F:\\Day10\\jiguang\\build\\intermediates\\packaged_res\\debug\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,112,166,220",
+                        "endColumns": "56,53,53,53",
+                        "endOffsets": "107,161,215,269"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "109,166,220,274",
+                        "endColumns": "56,53,53,53",
+                        "endOffsets": "161,215,269,323"
+                    }
+                },
+                {
+                    "source": "F:\\Day10\\jiguang-demo\\src\\main\\res\\values-zh\\jpush_demo_style.xml",
+                    "from": {
+                        "startLines": "7,2,11",
+                        "startColumns": "1,3,1",
+                        "startOffsets": "317,113,474",
+                        "endLines": "10,6,14",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "472,315,625"
+                    },
+                    "to": {
+                        "startLines": "19,23,28",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1154,1314,1521",
+                        "endLines": "22,27,31",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "1309,1516,1672"
+                    }
+                },
+                {
+                    "source": "F:\\Day10\\jiguang-demo\\src\\main\\res\\values-zh\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "53",
+                        "endOffsets": "104"
+                    }
+                },
+                {
+                    "source": "F:\\Day10\\jiguang-demo\\src\\main\\res\\values-zh\\jpush_demo_strings.xml",
+                    "from": {
+                        "startLines": "3,7,11,6,8,9,12,10,4,13,5,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "133,415,689,348,482,545,762,608,202,826,289,55",
+                        "endColumns": "68,66,72,66,62,62,63,80,86,54,58,77",
+                        "endOffsets": "197,477,757,410,540,603,821,684,284,876,343,128"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "328,397,464,537,604,667,730,794,875,962,1017,1076",
+                        "endColumns": "68,66,72,66,62,62,63,80,86,54,58,77",
+                        "endOffsets": "392,459,532,599,662,725,789,870,957,1012,1071,1149"
+                    }
+                }
+            ]
+        }
+    ]
+}

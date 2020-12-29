@@ -1,0 +1,685 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.jpush_test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml
+10
+11    <!-- Required -->
+12    <permission
+12-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:47
+13        android:name="com.example.jpush_test.permission.JPUSH_MESSAGE"
+13-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-65
+14        android:protectionLevel="signature" /> <!-- Required  一些系统要求的权限，如访问网络等 -->
+14-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-44
+15    <uses-permission android:name="com.example.jpush_test.permission.JPUSH_MESSAGE" />
+15-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-81
+15-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-78
+16    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+16-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-79
+16-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-67
+17-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:22-64
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-75
+18-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:22-72
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-81
+19-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-80
+20-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:22-77
+21    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+21-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-73
+21-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:22-70
+22    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+22-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-84
+22-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:22-81
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-79
+23-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:22-76
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 华为角标 -->
+24-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-76
+24-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:22-73
+25    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" /> <!-- Optional for location -->
+25-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-91
+25-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:22-88
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-66
+26-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-63
+27    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 用于开启 debug 版本的应用在6.0 系统上 层叠窗口权限 -->
+27-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-78
+27-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:22-75
+28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+28-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-81
+28-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:22-78
+29    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+29-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-76
+29-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:22-73
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+30-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-79
+30-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:22-76
+31    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- Android Q后台定位权限 -->
+31-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-85
+31-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:22-82
+32    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+32-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-89
+32-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:22-86
+33    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+33-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:5-79
+33-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:22-76
+34    <uses-permission android:name="android.permission.GET_TASKS" />
+34-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:5-68
+34-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:22-65
+35    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" /> <!-- xiaomi_permission_start -->
+35-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-77
+35-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:22-74
+36    <permission
+36-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:5-44:47
+37        android:name="com.example.jpush_test.permission.MIPUSH_RECEIVE"
+37-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-66
+38        android:protectionLevel="signature" />
+38-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-44
+39
+40    <uses-permission android:name="com.example.jpush_test.permission.MIPUSH_RECEIVE" /> <!-- xiaomi_permission_end -->
+40-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:5-82
+40-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:22-79
+41    <!-- oppo_permission_start -->
+42    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE" />
+42-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:5-86
+42-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:22-83
+43    <uses-permission android:name="com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE" /> <!-- oppo_permission_end -->
+43-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:5-85
+43-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:22-82
+44    <!-- jshare_permission_start -->
+45    <uses-permission android:name="android.permission.WAKE_LOCK" />
+45-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:5-68
+45-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:22-65
+46    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+46-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:5-84
+46-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:22-81
+47    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+47-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:5-74
+47-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:22-71
+48    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+48-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:5-71
+48-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:22-68
+49
+50    <application
+50-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:5:5-63:19
+51        android:name="com.example.jpush_test.App"
+51-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:6:9-28
+52        android:allowBackup="true"
+52-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:7:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\395caf503a19363977c06465a7c114a5\core-1.3.1\AndroidManifest.xml:24:18-86
+54        android:debuggable="true"
+55        android:icon="@mipmap/ic_launcher"
+55-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:8:9-43
+56        android:label="@string/app_name"
+56-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:9:9-41
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:10:9-54
+58        android:supportsRtl="true"
+58-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:11:9-35
+59        android:testOnly="true"
+60        android:theme="@style/AppTheme" >
+60-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:12:9-40
+61        <activity android:name="com.example.jpush_test.MainActivity" >
+61-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:13:9-19:20
+61-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:13:19-47
+62            <intent-filter>
+62-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:14:13-18:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:15:17-69
+63-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:15:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:17:17-77
+65-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:17:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+70        <receiver
+70-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:22:9-33:20
+71            android:name="com.example.jpush_test.MyReceiver"
+71-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:23:13-39
+72            android:enabled="true" >
+72-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:24:13-35
+73            <intent-filter>
+73-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:25:13-32:29
+74                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+74-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:26:17-79
+74-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:26:25-76
+75                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+75-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:27:17-83
+75-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:27:25-80
+76                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+76-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:28:17-88
+76-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:28:25-85
+77                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+77-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:29:17-86
+77-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:29:25-83
+78                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+78-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:30:17-77
+78-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:30:25-74
+79                <category android:name="com.example.jpush_test" />
+79-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:31:27-58
+80            </intent-filter>
+81        </receiver>
+82        <!-- User defined.  For test only  用户自定义接收消息器,3.0.7开始支持,目前新tag/alias接口设置结果会在该广播接收器对应的方法中回调 -->
+83        <!-- since 3.3.0 接收JPush相关事件 -->
+84        <receiver android:name="com.example.jpush_test.PushMessageReceiver" >
+84-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:36:9-41:20
+84-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:36:19-54
+85            <intent-filter>
+85-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:37:13-40:29
+86                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+86-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:38:17-82
+86-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:38:25-79
+87
+88                <category android:name="com.example.jpush_test" />
+88-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:31:27-58
+89            </intent-filter>
+90        </receiver>
+91        <!-- 点击通知时，要打开的 activity -->
+92        <activity
+92-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:43:9-51:20
+93            android:name="com.example.jpush_test.OpenClickActivity"
+93-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:44:13-46
+94            android:exported="true" >
+94-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:45:13-36
+95            <intent-filter>
+95-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:46:13-50:29
+96                <action android:name="android.intent.action.VIEW" />
+96-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:47:17-69
+96-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:47:25-66
+97
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:48:17-76
+98-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:48:27-73
+99
+100                <action android:name="com.example.jpushdemo.OpenClickActivity" />
+100-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:49:17-82
+100-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:49:25-79
+101            </intent-filter>
+102        </activity>
+103        <!-- since 3.3.0 Required SDK 核心功能 -->
+104        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+105        <!-- User defined.  For test only 继承自cn.jpush.android.service.JCommonService -->
+106        <service
+106-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:55:9-61:19
+107            android:name="com.example.jpush_test.PushService"
+107-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:56:13-40
+108            android:process=":pushcore" >
+108-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:57:13-40
+109            <intent-filter>
+109-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:58:13-60:29
+110                <action android:name="cn.jiguang.user.service.action" />
+110-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:59:17-73
+110-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:59:25-70
+111            </intent-filter>
+112        </service>
+113
+114        <!-- jpush_config_start -->
+115        <!-- Rich push 核心功能 since 2.0.6 -->
+116        <activity
+116-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:9-75:20
+117            android:name="cn.jpush.android.ui.PopWinActivity"
+117-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-62
+118            android:exported="true"
+118-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-36
+119            android:theme="@style/MyDialogStyle" >
+119-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-49
+120            <intent-filter>
+120-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-74:29
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:48:17-76
+121-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:48:27-73
+122
+123                <action android:name="cn.jpush.android.ui.PopWinActivity" />
+123-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:17-77
+123-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:25-74
+124
+125                <category android:name="com.example.jpush_test" />
+125-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:31:27-58
+126            </intent-filter>
+127        </activity> <!-- Required SDK核心功能 -->
+128        <activity
+128-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:9-89:20
+129            android:name="cn.jpush.android.ui.PushActivity"
+129-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-60
+130            android:configChanges="orientation|keyboardHidden"
+130-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-63
+131            android:exported="true"
+131-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-36
+132            android:theme="@android:style/Theme.NoTitleBar" >
+132-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-60
+133            <intent-filter>
+133-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:13-88:29
+134                <action android:name="cn.jpush.android.ui.PushActivity" />
+134-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:17-75
+134-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:25-72
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:48:17-76
+136-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:48:27-73
+137                <category android:name="com.example.jpush_test" />
+137-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:31:27-58
+138            </intent-filter>
+139        </activity> <!-- since 3.5.0 Required SDK 核心功能 -->
+140        <!-- 3.5.0新增，用于定时展示功能 -->
+141        <receiver
+141-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:9-95:40
+142            android:name="cn.jpush.android.service.SchedulerReceiver"
+142-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:13-70
+143            android:exported="false" /> <!-- 3.6.7 新增，用于负反馈组件 -->
+143-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-37
+144        <service android:name="cn.jpush.android.service.MessagingIntentService" /> <!-- since 3.0.9 Required SDK 核心功能 -->
+144-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:9-83
+144-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:18-80
+145        <provider
+145-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:9-105:43
+146            android:name="cn.jpush.android.service.DataProvider"
+146-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:13-65
+147            android:authorities="com.example.jpush_test.DataProvider"
+147-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:13-64
+148            android:exported="false"
+148-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-37
+149            android:process=":pushcore" /> <!-- since 3.1.0 Required SDK 核心功能 -->
+149-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:13-40
+150        <provider
+150-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:9-110:39
+151            android:name="cn.jpush.android.service.DownloadProvider"
+151-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-69
+152            android:authorities="com.example.jpush_test.DownloadProvider"
+152-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-68
+153            android:exported="true" /> <!-- since 3.3.0 Required SDK核心功能 -->
+153-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:13-36
+154        <activity
+154-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:9-123:20
+155            android:name="cn.jpush.android.service.JNotifyActivity"
+155-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:13-68
+156            android:exported="true"
+156-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:115:13-36
+157            android:taskAffinity="jpush.custom"
+157-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:13-48
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+158-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:13-72
+159            <intent-filter>
+159-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:118:13-122:29
+160                <action android:name="cn.jpush.android.intent.JNotifyActivity" />
+160-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:119:17-82
+160-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:119:25-79
+161
+162                <category android:name="com.example.jpush_test" />
+162-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:31:27-58
+163            </intent-filter>
+164        </activity> <!-- since 3.5.6 新增华硕通道 -->
+165        <receiver android:name="cn.jpush.android.asus.AsusPushMessageReceiver" /> <!-- jpush_config_end -->
+165-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:9-82
+165-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:19-79
+166        <!-- (jpush|jmessage)_config_start，jpush和jmessage公用的组件 -->
+167        <!-- Required SDK 核心功能 -->
+168        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+169        <service
+169-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:132:9-143:19
+170            android:name="cn.jpush.android.service.PushService"
+170-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:133:13-64
+171            android:enabled="true"
+171-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:134:13-35
+172            android:exported="false"
+172-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:13-37
+173            android:process=":pushcore" >
+173-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:136:13-40
+174            <intent-filter>
+174-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:137:13-142:29
+175                <action android:name="cn.jpush.android.intent.REGISTER" />
+175-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:138:17-75
+175-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:138:25-72
+176                <action android:name="cn.jpush.android.intent.REPORT" />
+176-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:139:17-73
+176-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:139:25-70
+177                <action android:name="cn.jpush.android.intent.PushService" />
+177-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:140:17-78
+177-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:140:25-75
+178                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+178-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:141:17-76
+178-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:141:25-73
+179            </intent-filter>
+180        </service> <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+181        <!-- 若不启用该功能可删除该组件，或把 enabled 设置成 false ；App 不会被其他 App 拉起，但会拉起其他的 App。 -->
+182        <service
+182-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:147:9-156:19
+183            android:name="cn.jpush.android.service.DaemonService"
+183-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:13-66
+184            android:enabled="true"
+184-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:149:13-35
+185            android:exported="true" >
+185-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:150:13-36
+186            <intent-filter>
+186-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:151:13-155:29
+187                <action android:name="cn.jpush.android.intent.DaemonService" />
+187-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:152:17-80
+187-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:152:25-77
+188
+189                <category android:name="com.example.jpush_test" />
+189-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:31:27-58
+190            </intent-filter>
+191        </service> <!-- 可选，如果使用静态Activity方式拉起，该组件必须声明 -->
+192        <activity
+192-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:158:9-169:20
+193            android:name="cn.jpush.android.service.DActivity"
+193-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:159:13-62
+194            android:enabled="true"
+194-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:160:13-35
+195            android:exported="true"
+195-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:161:13-36
+196            android:taskAffinity="jpush.custom"
+196-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:162:13-48
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+197-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:163:13-72
+198            <intent-filter>
+198-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:164:13-168:29
+199                <action android:name="cn.jpush.android.intent.DActivity" />
+199-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:165:17-76
+199-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:165:25-73
+200
+201                <category android:name="com.example.jpush_test" />
+201-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:31:27-58
+202            </intent-filter>
+203        </activity> <!-- Required SDK核心功能 -->
+204        <receiver
+204-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:172:9-190:20
+205            android:name="cn.jpush.android.service.PushReceiver"
+205-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:173:13-65
+206            android:enabled="true" >
+206-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:174:13-35
+207            <intent-filter android:priority="1000" >
+207-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:175:13-178:29
+207-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:175:28-51
+208                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+208-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:176:17-94
+208-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:176:25-91
+209                <category android:name="com.example.jpush_test" />
+209-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:31:27-58
+210            </intent-filter>
+211            <intent-filter>
+211-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:179:13-182:29
+212                <action android:name="android.intent.action.USER_PRESENT" />
+212-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:180:17-77
+212-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:180:25-74
+213                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+213-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:181:17-79
+213-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:181:25-76
+214            </intent-filter>
+215            <!-- Optional -->
+216            <intent-filter>
+216-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:184:13-189:29
+217                <action android:name="android.intent.action.PACKAGE_ADDED" />
+217-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:185:17-78
+217-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:185:25-75
+218                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+218-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:186:17-80
+218-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:186:25-77
+219
+220                <data android:scheme="package" />
+220-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:188:17-50
+220-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:188:23-47
+221            </intent-filter>
+222        </receiver> <!-- Required SDK核心功能 -->
+223        <receiver
+223-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:193:9-195:40
+224            android:name="cn.jpush.android.service.AlarmReceiver"
+224-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:194:13-66
+225            android:exported="false" /> <!-- (jpush|jmessage)_config_end -->
+225-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:195:13-37
+226        <!-- xiaomi_config_start -->
+227        <service
+227-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:200:9-205:43
+228            android:name="com.xiaomi.push.service.XMJobService"
+228-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:201:13-64
+229            android:enabled="true"
+229-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:202:13-35
+230            android:exported="false"
+230-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:203:13-37
+231            android:permission="android.permission.BIND_JOB_SERVICE"
+231-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:204:13-69
+232            android:process=":pushcore" />
+232-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:205:13-40
+233        <service
+233-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:206:9-209:43
+234            android:name="com.xiaomi.push.service.XMPushService"
+234-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:207:13-65
+235            android:enabled="true"
+235-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:208:13-35
+236            android:process=":pushcore" />
+236-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:209:13-40
+237        <service
+237-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:210:9-213:39
+238            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+238-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:211:13-68
+239            android:enabled="true"
+239-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:212:13-35
+240            android:exported="true" />
+240-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:213:13-36
+241        <service
+241-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:214:9-216:38
+242            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+242-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:215:13-70
+243            android:enabled="true" />
+243-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:216:13-35
+244
+245        <receiver
+245-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:218:9-226:20
+246            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+246-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:219:13-83
+247            android:exported="true" >
+247-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:220:13-36
+248            <intent-filter>
+248-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:221:13-225:29
+249                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+249-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:181:17-79
+249-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:181:25-76
+250
+251                <category android:name="android.intent.category.DEFAULT" />
+251-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:48:17-76
+251-->D:\soft\workspace\MyApplication\app\src\main\AndroidManifest.xml:48:27-73
+252            </intent-filter>
+253        </receiver>
+254        <receiver
+254-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:227:9-234:20
+255            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+255-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:228:13-74
+256            android:exported="false"
+256-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:229:13-37
+257            android:process=":pushcore" >
+257-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:230:13-40
+258            <intent-filter>
+258-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:231:13-233:29
+259                <action android:name="com.xiaomi.push.PING_TIMER" />
+259-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:232:17-69
+259-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:232:25-66
+260            </intent-filter>
+261        </receiver>
+262        <receiver
+262-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:235:9-247:20
+263            android:name="cn.jpush.android.service.PluginXiaomiPlatformsReceiver"
+263-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:236:13-82
+264            android:exported="true" >
+264-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:237:13-36
+265            <intent-filter>
+265-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:238:13-240:29
+266                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+266-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:239:17-76
+266-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:239:25-73
+267            </intent-filter>
+268            <intent-filter>
+268-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:241:13-243:29
+269                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+269-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:242:17-76
+269-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:242:25-73
+270            </intent-filter>
+271            <intent-filter>
+271-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:244:13-246:29
+272                <action android:name="com.xiaomi.mipush.ERROR" />
+272-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:245:17-66
+272-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:245:25-63
+273            </intent-filter>
+274        </receiver>
+275
+276        <meta-data
+276-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:249:9-251:48
+277            android:name="XIAOMI_APPKEY"
+277-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:250:13-41
+278            android:value="MI-小米的APPKEY" />
+278-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:251:13-45
+279        <meta-data
+279-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:252:9-254:47
+280            android:name="XIAOMI_APPID"
+280-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:253:13-40
+281            android:value="MI-小米的APPID" /> <!-- xiaomi_config_end -->
+281-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:254:13-44
+282        <!-- huawei_config_start -->
+283        <service
+283-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:259:9-265:19
+284            android:name="cn.jpush.android.service.PluginHuaweiPlatformsService"
+284-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:260:13-81
+285            android:exported="false" >
+285-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:261:13-37
+286            <intent-filter>
+286-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:262:13-264:29
+287                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+287-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:263:17-81
+287-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:263:25-78
+288            </intent-filter>
+289        </service> <!-- huawei_config_end -->
+290        <!-- oppo_config_start -->
+291        <service
+291-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:270:9-276:19
+292            android:name="cn.jpush.android.service.PluginOppoPushService"
+292-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:271:13-74
+293            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE" >
+293-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:272:13-77
+294            <intent-filter>
+294-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:273:13-275:29
+295                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+295-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:274:17-85
+295-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:274:25-82
+296            </intent-filter>
+297        </service> <!-- since JPushv3.6.8 ，oppov2.1.0 oppo 核心功能 -->
+298        <service
+298-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:278:9-285:19
+299            android:name="com.heytap.msp.push.service.DataMessageCallbackService"
+299-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:279:13-82
+300            android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE" >
+300-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:280:13-77
+301            <intent-filter>
+301-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:281:13-284:29
+302                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE" />
+302-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:282:17-84
+302-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:282:25-81
+303                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE" />
+303-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:283:17-82
+303-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:283:25-79
+304            </intent-filter>
+305        </service> <!-- 兼容Q版本 -->
+306        <meta-data
+306-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:286:9-288:46
+307            android:name="OPPO_APPKEY"
+307-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:287:13-39
+308            android:value="OP-oppo的APPKEY" />
+308-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:288:13-43
+309        <meta-data
+309-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:289:9-291:45
+310            android:name="OPPO_APPID"
+310-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:290:13-38
+311            android:value="OP-oppo的APPID" />
+311-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:291:13-42
+312        <meta-data
+312-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:292:9-294:49
+313            android:name="OPPO_APPSECRET"
+313-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:293:13-42
+314            android:value="OP-oppo的APPSECRET" /> <!-- oppo_config_end -->
+314-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:294:13-46
+315        <!-- vivo_config_start -->
+316        <receiver android:name="cn.jpush.android.service.PluginVivoMessageReceiver" >
+316-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:299:9-305:20
+316-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:299:19-84
+317            <intent-filter>
+317-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:300:13-304:29
+318
+319                <!-- 接收 push 消息 -->
+320                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+320-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:303:17-77
+320-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:303:25-74
+321            </intent-filter>
+322        </receiver>
+323
+324        <service
+324-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:307:9-309:39
+325            android:name="com.vivo.push.sdk.service.CommandClientService"
+325-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:308:13-74
+326            android:exported="true" />
+326-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:309:13-36
+327
+328        <activity
+328-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:311:9-315:75
+329            android:name="com.vivo.push.sdk.LinkProxyClientActivity"
+329-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:312:13-69
+330            android:exported="false"
+330-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:313:13-37
+331            android:screenOrientation="portrait"
+331-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:314:13-49
+332            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+332-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:315:13-72
+333
+334        <meta-data
+334-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:317:9-319:46
+335            android:name="com.vivo.push.api_key"
+335-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:318:13-49
+336            android:value="vivo的APPKEY" />
+336-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:319:13-43
+337        <meta-data
+337-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:320:9-322:45
+338            android:name="com.vivo.push.app_id"
+338-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:321:13-48
+339            android:value="vivo的APPID" /> <!-- vivo_config_end -->
+339-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:322:13-42
+340        <!-- Required_config -->
+341        <meta-data
+341-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:327:9-329:48
+342            android:name="JPUSH_CHANNEL"
+342-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:328:13-41
+343            android:value="default_developer" />
+343-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:329:13-45
+344        <meta-data
+344-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:330:9-332:47
+345            android:name="JPUSH_APPKEY"
+345-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:331:13-40
+346            android:value="0414c31576dba6ce12f59774" />
+346-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:332:13-44
+347
+348        <service
+348-->[:com.heytap.msp-push-2.1.0:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d00fb15de33fc28e27b080443a2ba776\jetified-com.heytap.msp-push-2.1.0\AndroidManifest.xml:14:9-20:19
+349            android:name="com.heytap.msp.push.service.CompatibleDataMessageCallbackService"
+349-->[:com.heytap.msp-push-2.1.0:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d00fb15de33fc28e27b080443a2ba776\jetified-com.heytap.msp-push-2.1.0\AndroidManifest.xml:15:13-92
+350            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE" >
+350-->[:com.heytap.msp-push-2.1.0:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d00fb15de33fc28e27b080443a2ba776\jetified-com.heytap.msp-push-2.1.0\AndroidManifest.xml:16:13-77
+351            <intent-filter>
+351-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:273:13-275:29
+352                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+352-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:274:17-85
+352-->[:jiguang] D:\soft\workspace\MyApplication\jiguang\build\intermediates\library_manifest\debug\AndroidManifest.xml:274:25-82
+353            </intent-filter>
+354        </service>
+355    </application>
+356
+357</manifest>

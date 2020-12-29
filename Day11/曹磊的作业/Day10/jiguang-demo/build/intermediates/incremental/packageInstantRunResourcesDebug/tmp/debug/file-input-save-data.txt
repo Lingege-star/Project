@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Mon Dec 28 12:04:26 CST 2020
+1.base=F\:\\Day10\\jiguang-demo\\build\\intermediates\\merged_assets\\debug\\out
+2.path=JGShareSDK.xml
+0.baseType=DIRECTORY
+2.base=F\:\\Day10\\jiguang-demo\\build\\intermediates\\merged_assets\\debug\\out
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=jshare_jiguang_test.mp4
+0.set=ASSET
+0.base=F\:\\Day10\\jiguang-demo\\build\\intermediates\\merged_assets\\debug\\out
+2.baseType=DIRECTORY
+1.path=jshare_jiguang_test_img.png

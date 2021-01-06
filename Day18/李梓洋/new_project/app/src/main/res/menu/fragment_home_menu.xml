@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home_search" android:icon="@drawable/search" android:title="搜索" app:showAsAction="always"/>
+    <item android:id="@+id/home_message" android:icon="@drawable/message_read" android:title="邮箱" app:showAsAction="always"/>
+
+</menu>

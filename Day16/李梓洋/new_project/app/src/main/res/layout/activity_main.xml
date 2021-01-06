@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fra"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/act_nav"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/act_nav"
+        android:background="#fff"
+        app:labelVisibilityMode="labeled"
+        app:itemTextAppearanceActive="@style/bottom_nav_sel"
+        app:itemTextAppearanceInactive="@style/bottom_nav_nor"
+        app:menu="@menu/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_56"
+        app:tabIndicatorHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fra" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

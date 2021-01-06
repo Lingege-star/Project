@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mine_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_56"
+        android:background="#2E334D"
+        tools:ignore="MissingConstraints">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_140"
+        android:background="#2E334D"
+        app:layout_constraintTop_toBottomOf="@+id/mine_toolbar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cons"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_170"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:background="@drawable/bg_corner_img"
+        app:layout_constraintTop_toBottomOf="@+id/mine_toolbar">
+
+        <ImageView
+            android:id="@+id/mine_header_img"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            android:layout_margin="@dimen/dp_20"
+            android:src="@mipmap/datouxiang"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mine_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:text="请登录"
+            android:textColor="#000"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@+id/mine_header_img"
+            app:layout_constraintTop_toTopOf="@+id/mine_header_img" />
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_30"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mine_header_img">
+
+            <RadioButton
+                android:id="@+id/mine_order"
+                android:layout_width="0dp"
+                android:button="@null"
+                android:drawableTop="@drawable/order_icon"
+                android:text="我的订单"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <RadioButton
+                android:id="@+id/mine_purse"
+                android:layout_width="0dp"
+                android:button="@null"
+                android:drawableTop="@drawable/purse_icon"
+                android:text="我的钱包\n(0.0)"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <RadioButton
+                android:id="@+id/mine_null"
+                android:layout_width="0dp"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="@dimen/sp_18"
+                android:text="暂无"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/x32"
+        android:text="个人中心"
+        android:textColor="#000"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintLeft_toLeftOf="@+id/cons"
+        app:layout_constraintTop_toBottomOf="@+id/cons" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_20"
+        app:layout_constraintTop_toBottomOf="@+id/tv_center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_60"
+            android:background="#fff"
+            android:drawableLeft="@drawable/shopping_card_icon"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_230"
+            android:text="购物车" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_60"
+            android:background="#fff"
+            android:drawableLeft="@drawable/agreement_icon"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_230"
+            android:text="我的协议" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_60"
+            android:background="#fff"
+            android:drawableLeft="@drawable/invoice_icon"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_230"
+            android:text="申请发票" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_60"
+            android:background="#fff"
+            android:drawableLeft="@drawable/relearning_icon"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_230"
+            android:text="申请重学" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_60"
+            android:background="#fff"
+            android:drawableLeft="@drawable/suggest_icon"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_230"
+            android:text="建议投诉" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
